@@ -13,3 +13,14 @@ It’s meant as a hands on exploration of computer architecture: writing instruc
 
 ![16-bit CPU Circuit](images/16%20Bit%20CPU.png)
 
+# Repository Contents
+16BitCPU.circ → Main CPU circuit and sub circuits (Logisim Evolution file).
+files/ASSEMBLY INSTRUCTIONS.txt → Full list of supported instructions (ISA).
+files/Assembler Python.py → Python script that assembles .asm programs into machine code.
+files/FULL OPERATING SYSTEM.asm → Example assembly code for a simple OS.
+files/Final Tetris Game.asm → Tetris game written in assembly.
+files/Final assembly_tetris game → Updated Tetris assembly version.
+files/OPCODE_ROM_MICROCODE_1/2/3 → Opcode ROM microcode files (load into CPU ROM for programs).
+files/RAM_256_16 → RAM initialization file (256 × 16-bit).
+files/TETRIS game RAM file → RAM preload for the Tetris game.
+images/16bit_cpu.png → Screenshot of the CPU main circuit & sub circuits.
