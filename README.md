@@ -23,4 +23,4 @@ It’s meant as a hands on exploration of computer architecture: writing instruc
 - files/OPCODE_ROM_MICROCODE_1/2/3 → Opcode ROM microcode files (load into CPU ROM for programs).
 - files/RAM_256_16 → RAM initialization file (256 × 16-bit).
 - files/TETRIS game RAM file → RAM preload for the Tetris game.
-- images/16bit_cpu.png → Screenshot of the CPU main circuit & sub circuits.
+- images → Screenshot of the CPU main circuit & sub circuits.
