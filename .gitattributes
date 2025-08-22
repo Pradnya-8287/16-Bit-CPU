@@ -1,2 +1,4 @@
 *.asm linguist-detectable=false
 *.asm linguist-language=Text
+*.py linguist-detectable=false
+*.py linguist-language=Text
