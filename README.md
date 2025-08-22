@@ -11,4 +11,5 @@ It’s meant as a hands on exploration of computer architecture: writing instruc
 4. RAM, ROM, and Stack support for programs and subroutines.
 5. I/O devices: a simple TTY display, keyboard input, and graphics placeholders.
 
+![16-bit CPU Circuit](images/16%20Bit%20CPU.png)
 
