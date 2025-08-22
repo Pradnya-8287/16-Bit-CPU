@@ -24,3 +24,15 @@ It’s meant as a hands on exploration of computer architecture: writing instruc
 - files/RAM_256_16 → RAM initialization file (256 × 16-bit).
 - files/TETRIS game RAM file → RAM preload for the Tetris game.
 - images → Screenshot of the CPU main circuit & sub circuits.
+
+## Instruction Set (ISA)
+The CPU supports a wide variety of instructions. Here’s a summary:
+
+- Data Movement: LDA, LDB, LDX, LDY, STA, STB, STX, STY, STK, SYX, SXY, SYT
+- Immediate Loads: LIA, LIB, LIX, LIY, LIT
+- ALU Operations: ADD, SUB, CMP, ADI, SUI, LNR, LAR, LOR, LXR
+- Branching / Jumps: JMP, JPL, JPZ, JPE, JPG, JPC, JPY, AIJ, AIE
+- Stack / Calls: CAL, RET, CAI
+- Display / I/O: LDT, LIT, LVA, LVD, UPD, RVA, RVD
+- No Operation: NOP
+For the full opcode breakdown, check files/ASSEMBLY INSTRUCTIONS.txt.
